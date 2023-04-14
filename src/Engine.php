@@ -9,7 +9,7 @@ const NUMBER_ROUNDS = 3;
 
 function runGame(string $descriptionGame, callable $genGameTask): void
 {
-    line('Welcome to the Brain Game!');
+    line('Welcome to the Brain Games!');
     $userName = prompt('May I have your name?');
     line("Hello, %s!", $userName);
     line($descriptionGame);
