@@ -13,7 +13,7 @@ function randomOperation()
     return $operations[$randIndex];
 }
 
-function calcExpression($firstOperand, $secondOperand, $opeation)
+function calcExpression(int $firstOperand, int $secondOperand, string $opeation)
 {
     if ($opeation === '+') {
         return $firstOperand + $secondOperand;
